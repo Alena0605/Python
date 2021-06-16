@@ -1,0 +1,10 @@
+Ivanov 10000
+Petrov 25000
+Sidorov 20000
+Novikova 18000
+Serova 16000
+Leonov 28000
+Petrenko 16000
+Korolev 22000
+Babikov 12000
+Trusov 14000
