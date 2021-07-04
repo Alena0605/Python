@@ -22,15 +22,15 @@ class Date:
     @staticmethod
     def validation(day, month, year):
         if day < 1 or day > 31:
-            print(f'В месяце 30/31 день. Числа {day} не существует')
+            print(f'Вы ввели неверное число')
         if month < 1 or month > 12:
-            print(f'Месяца под номером {month} не существует')
-        if year > 2021:
-            print(f'{year} год еще не наступил')
+            print(f'Месяц введен неверно')
+        if year <= 0:
+            print(f'Год введен неверно')
 
 
 date_1 = Date('29-6-2021')
 print(date_1)
 
 print(Date.extract('29-6-2021'))
-Date.validation(35, 13, 2022)
+Date.validation(35, 14, 2022)
